@@ -15,3 +15,47 @@ docker-compose up -d
 ```
 
 6. Levantar: ```yarn start:dev```
+
+## Temas
+
+    TypeORM
+
+    Postgres
+
+    CRUD
+
+    Constrains
+
+    Validaciones
+
+    Búsquedas
+
+    Paginaciones
+
+    DTOs
+
+    Entities
+
+    Decoradores de TypeORM para entidades
+
+    Métodos BeforeInsert, BeforeUpdate
+
+    Relaciones
+
+      De uno a muchos
+
+      Muchos a uno
+
+    Query Runner
+
+    Query Builder
+
+    Transacciones
+
+    Commits y Rollbacks
+
+    Renombrar tablas
+
+    Creación de un SEED
+
+    Aplanar resultados
