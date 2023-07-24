@@ -59,3 +59,27 @@ docker-compose up -d
     Creación de un SEED
 
     Aplanar resultados
+
+    Autenticación
+
+    Autorización
+
+    Json Web Tokens
+
+    Hash de contraseñas
+
+    Nest Passport
+
+    Módulos asíncronos
+
+    Protección de rutas
+
+    Custom Method Decorators
+
+    Custom Class Decorators
+
+    Custom Property Decorators
+
+    Enlazar usuarios con productos
+
+    Bearer Tokens
