@@ -1,6 +1,7 @@
 import { Controller, Get, Post, Body, UseGuards, Headers, Header } from '@nestjs/common';
 import { IncomingHttpHeaders } from 'http';
 import { AuthGuard } from '@nestjs/passport';
+import { ApiTags } from '@nestjs/swagger';
 
 import { Auth, GetRawHeaders, GetUser, RoleProtected } from './decorators';
 import { AuthService } from './auth.service';
@@ -8,7 +9,7 @@ import { User } from './entities/users.entity';
 import { LoginUserDto, CreateUserDto } from './dto';
 import { UseRoleGuard } from './guards/use-role/use-role.guard';
 import { ValidRoles } from './interfaces';
-
+@ApiTags('Auth')
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) { }
