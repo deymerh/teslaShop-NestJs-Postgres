@@ -83,3 +83,23 @@ docker-compose up -d
     Enlazar usuarios con productos
 
     Bearer Tokens
+
+## Comunicación entre cliente y servidor mediante WebSockets
+
+    Nest Gateways
+
+    Conexiones
+
+    Desconexiones
+
+    Emitir y escuchar mensajes desde el servidor y cliente
+
+    Cliente con Vite y TS
+
+    Autenticar conexión mediante JWTs
+
+    Usar mismo mecanismos de autenticación previamente creado
+
+    Desconectar sockets manualmente
+
+    Prevenir doble conexión de usuarios autenticados.
